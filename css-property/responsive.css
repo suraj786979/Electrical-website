@@ -36,8 +36,8 @@
         opacity: 0;
     }
     .image-logo-round{
-        width: 152px;
-        height: 144px;
+        width: 165px;
+        height: 157px;
         
     }
     .paira{
@@ -64,11 +64,12 @@
     }
     .content{
         max-width: 100%;
-        padding: 0px 9px;
-        font-size: 12px;
+        padding: 0px 20px;
+        font-size: 15px;
+        padding-top: 10px;
     }
     .bgblue{
-        width: 245px;
+        width: 290px;
     }
     #sectionleft{
         flex-direction: column-reverse;
@@ -141,5 +142,8 @@
     }
     .swiper-button-next{
         visibility: hidden;
+    }
+    .image-logo{
+        padding-top: 10px;
     }
 }
