@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu&display=swap');
+
+#main-content{
+    /* display: flex; */
+    margin-top: 50px;
+}
+.head{
+    text-align: left;
+    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+} 
+#Electrical-image{
+    display: flex;
+    justify-content: center;
+    max-width: 75vw;
+    margin: auto;
+}
+.bgblue{
+    width: 190px;
+    height: 190px;
+    border: 4px solid rgb(132, 253, 253);
+    border-radius: 20px;
+}
+.content{
+    max-width: 60vw;
+    padding-top: 8px;
+    padding-right: 79px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#sectionleft{
+    display: flex;
+    justify-content: center;
+    max-width: 75vw;
+    margin: auto;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+#sectionbg{
+    display: flex;
+    justify-content: center;
+    max-width: 75vw;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.paira-text-s1{
+    padding-left: 100px;
+}
+/* .design{
+    
+} */

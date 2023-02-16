@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background-blend-mode: 10px; */
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background: transparent; */
+
+}
+.nav-head{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding-top: 10px; */
+}
+.nav{
+    display: flex;
+}
+.nav li{
+    list-style: none;
+    padding: 0 18px;
+}
+.nav li a:hover{
+    color: rgba(209, 204, 204, 0.934);
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+.image-br{
+    width: 64px;
+    /* padding: 0 15px; */
+}
+.left-nav{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+}
+.image-logo{
+    display: flex;
+    justify-content: center;
+}
+.image-logo-round{
+    width: 240px;
+    height: 224px;
+    /* border-radius: 150px; */
+    /* border-bottom: 10px solid black; */
+    /* animation: animate 3s linear 1; */
+}
+@keyframes animate {
+    10%{
+       border-radius: 7px solid black; 
+    }
+    20%{
+        border-radius: 7px solid green;
+    }
+    40%{
+        border-radius: 7px solid Yellow;
+    }
+}
+.paira{
+    position: relative;
+    bottom: 13px;
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+
+
+
+

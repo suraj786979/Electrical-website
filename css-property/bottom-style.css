@@ -1,0 +1,72 @@
+.red-gh{
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.red-text{
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.551);
+    padding: 0px 25px;
+    border-radius: 15px;
+}
+.electrical-logo-image{
+    width: 350px;
+    height: 300px;
+}
+.info-m-electrical{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 35px;
+    max-width: 75%;
+    margin: auto;
+    padding-top: 50px;
+}
+.info-paira{
+    font-size: 23px;
+}
+.paira-text{
+    padding-top: 12px;
+    font-size: 18px;
+}
+.paira-text-1{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.email{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.pre-sec{
+    font-size: 18px;
+}
+
+#map-gl{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+#map-gl iframe{
+    width: 80%;
+    height: 300px;
+
+
+}
+
+#foot-os{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    padding: 10px 0px;
+    font-size: 21px;
+   
+}
+#policy{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding: 10px 0px;
+    font-size: 21px;
+}
